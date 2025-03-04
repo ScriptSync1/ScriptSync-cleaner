@@ -4,7 +4,7 @@ def open_browser():
     webbrowser.open("https://scriptsync.tilda.ws/")
 open_browser()
 folder = 'c:\windows\Temp'
-folder3 = 'c:\windows\Prefetch'
+folder2 = 'c:\windows\Prefetch'
 for filename in os.listdir(folder):
     file_path = os.path.join(folder, filename)
     try:
